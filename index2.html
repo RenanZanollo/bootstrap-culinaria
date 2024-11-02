@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">RZAcademy</a>
+    <ul class="navbar-nav flex-row">
+        <li class="nav-item">
+            <a class="nav-link" href="#" style="padding-right: 20px;">Home</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#" style="padding-right: 20px;">Link</a>
+        </li>
+    </ul>
+    <form class="form-inline ml-auto">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+</nav>
+
+<!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="d-block w-100" style="background-color: #6c757d; height: 400px;">
+                <img src="img/imagem 1 carrossel.jpg" alt="" height="100%" width="100%">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Venha conhecer o curso de Pasta.</h5>
+                    <p>Curso de preparação d todo tipo de Pasta.</p>
+                    <button class="btn btn-primary">Sign up</button>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="d-block w-100" style="background-color: #6c757d; height: 400px;">
+                <img src="img/imagem 2 carrocel.webp" height="100%" width="100%">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="padding-bottom: 10%;">Aqui voce se forma e ja sai cozinhando!!</h5>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="d-block w-100" style="background-color: #6c757d; height: 400px;">
+                <img src="img/imagem 3 carrossel.jpg" alt="" height="100%" width="100%">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!-- Features Section -->
+<div class="container text-center mt-5">
+    <div class="row">
+        <div class="col-lg-4">
+            <img src="img/imagem doce.webp" alt="Programming Image 1" class="bd-placeholder-img rounded-circle" width="140" height="140">
+            <h2>Doces</h2>
+            <p>Some representative placeholder content for the first column.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+        </div>
+        <div class="col-lg-4">
+            <img src="img/carne com ouro.webp" alt="Programming Image 2" class="bd-placeholder-img rounded-circle" width="140" height="140">
+            <h2>Salgados</h2>
+            <p>Some representative placeholder content for the second column.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+        </div>
+        <div class="col-lg-4">
+            <img src="img/drinks.jpg" alt="Programming Image 3" class="bd-placeholder-img rounded-circle" width="140" height="140">
+            <h2>Drinks</h2>
+            <p>Curso para você que é bartender ou gosta de tomar um drink de qualidade.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- Featurette Section -->
+<div class="container mt-5">
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Aprenda a cozinhar como nunca!<span class="text-muted"></span></h2>
+            <p class="lead">Com os cursos da RZAcademy você tem tudo oque precisa pra ter o diferencial.</p>
+        </div>
+        <div class="col-md-5">
+            <img src="img/img 1.jpg" class="img-fluid" alt="Feature Image" width="500px" height="500px">
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-md-5">
+            <img src="img/img 2.avif" class="img-fluid" alt="Feature Image" width="500px" height="500px">
+        </div>
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Desenvolva seus proprios codigos. <span class="text-muted"></span></h2>
+            <p class="lead">Aprenda culinaria na pratica e desenvolva seus proprios pratos.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Os melhores professores.<span class="text-muted">Talvez até do mundo!</span></h2>
+            <p class="lead">Na RZAcademy voce tem suporte 24 horas e diversas aulas gravadas pelos melhores professores e cozinheiros da America Latina.</p>
+        </div>
+        <div class="col-md-5">
+            <img src="img/img 3.jpg" class="img-fluid" alt="Feature Image" width="500px" height="500px">
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="container mt-5">
+    <hr>
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>© 2017–2021 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
